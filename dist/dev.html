@@ -74,6 +74,9 @@
       color: black;
     }
   </style>
+
+  <!-- Need to manually add this for outline player -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 
 <body>
@@ -110,13 +113,6 @@
         }
       }
     };
-    // append global base styles
-    var link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href = 'node_modules/@lrnwebcomponents/haxcms-elements/lib/base.css';
-    link.type = 'text/css';
-    var def = document.getElementsByTagName('link')[0];
-    def.parentNode.insertBefore(link, def);
   </script>
 </body>
 
